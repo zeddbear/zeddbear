@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Company Promotional Website</title>
+</head>
+<body style="font-family: 'Arial', sans-serif; line-height: 1.6; margin: 20px;">
+
+    <img src="https://picsum.photos/800/200" alt="Toy Company Banner" style="max-width: 100%; height: auto; display: block; margin: 20px auto;">
+
+    <h1 style="color: #008080; text-align: center;">Welcome to Our Toy Wonderland!</h1>
+
+    <p style="margin-bottom: 15px;">Explore a magical world of joy and creativity with our amazing toys. Our mission is to bring smiles and laughter to children of all ages.</p>
+
+    <p style="margin-bottom: 15px;">Our <span style="font-weight: bold; color: #FF6347;">premium</span> collection of toys is crafted with love and care. Each toy is designed to inspire imagination and foster learning through play.</p>
+
+    <p style="margin-bottom: 15px;">Discover the wonder of play with our diverse range of products, including:</p>
+
+    <ul>
+        <li style="margin-bottom: 10px;">Dolls and Action Figures</li>
+        <li style="margin-bottom: 10px;">Building Blocks</li>
+        <li style="margin-bottom: 10px;">Board Games</li>
+        <li style="margin-bottom: 10px;">Interactive Learning Toys</li>
+    </ul>
+
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid #008080; padding: 10px; text-align: left;">Toy Name</th>
+                <th style="border: 1px solid #008080; padding: 10px; text-align: left;">Age Range</th>
+                <th style="border: 1px solid #008080; padding: 10px; text-align: left;">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #008080; padding: 10px; text-align: left;">Sparkle Doll</td>
+                <td style="border: 1px solid #008080; padding: 10px; text-align: left;">3-7 years</td>
+                <td style="border: 1px solid #008080; padding: 10px; text-align: left;">$19.99</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #008080; padding: 10px; text-align: left;">Adventure Building Set</td>
+                <td style="border: 1px solid #008080; padding: 10px; text-align: left;">5-12 years</td>
+                <td style="border: 1px solid #008080; padding: 10px; text-align: left;">$29.99</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #008080; padding: 10px; text-align: left;">SmartyPants Board Game</td>
+                <td style="border: 1px solid #008080; padding: 10px; text-align: left;">8-14 years</td>
+                <td style="border: 1px solid #008080; padding: 10px; text-align: left;">$24.99</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="margin-top: 20px; margin-bottom: 15px;"><a href="#contact" style="color: #4CAF50; text-decoration: none;">See the contact information</a> to get in touch with us or <a href="#top" style="color: #4CAF50; text-decoration: none;">jump to the top</a> of the page for more exciting toys!</p>
+
+    <p style="margin-bottom: 15px;">At our toy company, we believe in creating memories that last a lifetime. Whether it's a special occasion or just a regular day, our toys bring joy and happiness to children around the world.</p>
+
+    <p style="margin-bottom: 15px;">As a socially responsible company, we prioritize safety and quality in all our products. Our toys are designed to meet and exceed industry standards, providing parents with peace of mind.</p>
+
+    <p style="margin-bottom: 15px;">Join us in the celebration of childhood and the power of play. Our commitment to innovation ensures that we continue to bring fresh and exciting toys to the market.</p>
+
+    <p style="margin-bottom: 15px;">Browse our online catalog or visit our store to experience the magic of our toys firsthand. From educational games to cuddly companions, we have something for every child's unique interests.</p>
+
+    <p style="margin-bottom: 15px;">Thank you for choosing our toys to be a part of your child's journey. Together, let's create moments of laughter, learning, and endless fun!</p>
+
+    <p id="contact" style="margin-bottom: 15px;color: coral;font-weight: bold;">Contact us today to bring joy into your child's life with our fantastic toys! Our team is here to assist you in finding the perfect toys for your little ones.</p>
+
+    <p id="top" style="margin-bottom: 15px;"><a href="#top" style="color: lightgray; text-decoration: none;">Back to Top</a></p>
+
+</body>
+</html>
