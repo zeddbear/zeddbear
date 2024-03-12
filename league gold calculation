@@ -1,0 +1,46 @@
+In the game League of Legends, two teams of 5 players each participate, denoted as a, b, c, d, e for one team and A, B, C, D, E for the other team. Each player has an initial value of 300 and an initial gain of 0. Battles occur between pairs of players from different teams, with a winner and a loser after each battle.
+
+After a battle, the winner's gain increases by the value of the loser's, their value increases by 50 units (but not exceeding 1000), and the loser's value decreases by 50 units (but not falling below 0).
+
+Given the list of battles, determine how much money each player will have at the end of the match.Using C++
+
+
+#include <iostream>
+#include <map>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+  map<string, pair<int, int>> players;
+  players["a"] = make_pair(300, 0);
+  players["b"] = make_pair(300, 0);
+  players["c"] = make_pair(300, 0);
+  players["d"] = make_pair(300, 0);
+  players["e"] = make_pair(300, 0);
+  players["A"] = make_pair(300, 0);
+  players["B"] = make_pair(300, 0);
+  players["C"] = make_pair(300, 0);
+  players["D"] = make_pair(300, 0);
+  players["E"] = make_pair(300, 0);
+
+  int n;
+  cin >> n;
+
+  for (int i = 0; i < n; i++) {
+    string x, y;
+    cin >> x >> y;
+    players[x].second += players[y].first;
+    players[x].first += 50;
+    players[x].first = min(players[x].first, 1000);
+    players[y].first -= 50;
+    players[y].first = max(players[y].first, 0);
+  }
+
+  for (auto player : players) {
+    cout << player.first << " " << player.second.second << endl;
+  }
+
+  return 0;
+}
