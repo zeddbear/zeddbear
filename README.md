@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @zeddbear
+- 👋 Hi, I’m Eduard
 - 👀 I’m interested in gaming. books
 - 🌱 I’m currently learning a lot 
 - 📫 How to reach me email, discord
